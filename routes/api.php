@@ -20,3 +20,4 @@ use App\Http\Controllers\AuthController;
 // });
 
 Route::get('/user',[AuthController::class,'user']);
+Route::post('/register',[AuthController::class,'register']);
